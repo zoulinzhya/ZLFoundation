@@ -1,0 +1,6 @@
+framework module Pods_ZLFoundation {
+  umbrella header "Pods-ZLFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

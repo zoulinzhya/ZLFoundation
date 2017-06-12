@@ -1,0 +1,6 @@
+framework module FMDBx {
+  umbrella header "FMDBx-umbrella.h"
+
+  export *
+  module * { export * }
+}
