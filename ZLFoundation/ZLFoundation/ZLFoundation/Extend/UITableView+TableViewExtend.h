@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 @interface UITableView (TableViewExtend)
 
@@ -23,5 +24,6 @@
  *  @brief 去掉顶部HeaderView
  */
 - (void)takeOutTableViewHeaderView;
+
 
 @end

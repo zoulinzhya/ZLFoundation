@@ -16,9 +16,7 @@
 		97B461C01EEE68B200E7D324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B461BF1EEE68B200E7D324 /* Assets.xcassets */; };
 		97B461C31EEE68B200E7D324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B461C11EEE68B200E7D324 /* LaunchScreen.storyboard */; };
 		97BAD0F41EEF6E0200CB6EAD /* PlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD0CD1EEF6E0200CB6EAD /* PlistManager.m */; };
-		97BAD0F61EEF6E0200CB6EAD /* MBProgressHUD+GTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD0D41EEF6E0200CB6EAD /* MBProgressHUD+GTExtend.m */; };
 		97BAD0F71EEF6E0200CB6EAD /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD0D71EEF6E0200CB6EAD /* NSString+Ext.m */; };
-		97BAD0F81EEF6E0200CB6EAD /* UIButton+GTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD0D91EEF6E0200CB6EAD /* UIButton+GTExtend.m */; };
 		97BAD0F91EEF6E0200CB6EAD /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD0DB1EEF6E0200CB6EAD /* UIImage+Extend.m */; };
 		97BAD0FA1EEF6E0200CB6EAD /* UINavigationController+GTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD0DD1EEF6E0200CB6EAD /* UINavigationController+GTExtend.m */; };
 		97BAD0FB1EEF6E0200CB6EAD /* UITableView+TableViewExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD0DF1EEF6E0200CB6EAD /* UITableView+TableViewExtend.m */; };
@@ -30,6 +28,7 @@
 		97BAD1011EEF6E0200CB6EAD /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD0EF1EEF6E0200CB6EAD /* GCDSemaphore.m */; };
 		97BAD1021EEF6E0200CB6EAD /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD0F11EEF6E0200CB6EAD /* GCDTimer.m */; };
 		97BAD1081EEF703900CB6EAD /* AppConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD1041EEF703900CB6EAD /* AppConfiger.m */; };
+		97BAD10F1EEFB18300CB6EAD /* MBProgressHUD+GTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD10E1EEFB18300CB6EAD /* MBProgressHUD+GTExtend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,15 +46,8 @@
 		97B461C41EEE68B200E7D324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97BAD0CC1EEF6E0200CB6EAD /* PlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistManager.h; sourceTree = "<group>"; };
 		97BAD0CD1EEF6E0200CB6EAD /* PlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistManager.m; sourceTree = "<group>"; };
-		97BAD0D11EEF6E0200CB6EAD /* ActionSheetDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDelegate.h; sourceTree = "<group>"; };
-		97BAD0D21EEF6E0200CB6EAD /* GTExtendHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTExtendHeader.h; sourceTree = "<group>"; };
-		97BAD0D31EEF6E0200CB6EAD /* MBProgressHUD+GTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GTExtend.h"; sourceTree = "<group>"; };
-		97BAD0D41EEF6E0200CB6EAD /* MBProgressHUD+GTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GTExtend.m"; sourceTree = "<group>"; };
-		97BAD0D51EEF6E0200CB6EAD /* NSNumber_Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumber_Extend.h; sourceTree = "<group>"; };
 		97BAD0D61EEF6E0200CB6EAD /* NSString+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
 		97BAD0D71EEF6E0200CB6EAD /* NSString+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ext.m"; sourceTree = "<group>"; };
-		97BAD0D81EEF6E0200CB6EAD /* UIButton+GTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GTExtend.h"; sourceTree = "<group>"; };
-		97BAD0D91EEF6E0200CB6EAD /* UIButton+GTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GTExtend.m"; sourceTree = "<group>"; };
 		97BAD0DA1EEF6E0200CB6EAD /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
 		97BAD0DB1EEF6E0200CB6EAD /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
 		97BAD0DC1EEF6E0200CB6EAD /* UINavigationController+GTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+GTExtend.h"; sourceTree = "<group>"; };
@@ -80,6 +72,8 @@
 		97BAD1031EEF703900CB6EAD /* AppConfiger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfiger.h; sourceTree = "<group>"; };
 		97BAD1041EEF703900CB6EAD /* AppConfiger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfiger.m; sourceTree = "<group>"; };
 		97BAD1051EEF703900CB6EAD /* Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constraints.h; sourceTree = "<group>"; };
+		97BAD10D1EEFB18300CB6EAD /* MBProgressHUD+GTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+GTExtend.h"; sourceTree = "<group>"; };
+		97BAD10E1EEFB18300CB6EAD /* MBProgressHUD+GTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+GTExtend.m"; sourceTree = "<group>"; };
 		BDD2F34FC519EC8E14E86FDC /* Pods_ZLFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZLFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC28E51E95F38A65BB454C0B /* Pods-ZLFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZLFoundation.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZLFoundation/Pods-ZLFoundation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +128,7 @@
 		97B461AF1EEE68B200E7D324 /* ZLFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				97BAD10B1EEFB18300CB6EAD /* Vendor */,
 				97BAD0C81EEF6E0200CB6EAD /* ZLFoundation */,
 				97B461B31EEE68B200E7D324 /* AppDelegate.h */,
 				97B461B41EEE68B200E7D324 /* AppDelegate.m */,
@@ -182,15 +177,8 @@
 		97BAD0D01EEF6E0200CB6EAD /* Extend */ = {
 			isa = PBXGroup;
 			children = (
-				97BAD0D11EEF6E0200CB6EAD /* ActionSheetDelegate.h */,
-				97BAD0D21EEF6E0200CB6EAD /* GTExtendHeader.h */,
-				97BAD0D31EEF6E0200CB6EAD /* MBProgressHUD+GTExtend.h */,
-				97BAD0D41EEF6E0200CB6EAD /* MBProgressHUD+GTExtend.m */,
-				97BAD0D51EEF6E0200CB6EAD /* NSNumber_Extend.h */,
 				97BAD0D61EEF6E0200CB6EAD /* NSString+Ext.h */,
 				97BAD0D71EEF6E0200CB6EAD /* NSString+Ext.m */,
-				97BAD0D81EEF6E0200CB6EAD /* UIButton+GTExtend.h */,
-				97BAD0D91EEF6E0200CB6EAD /* UIButton+GTExtend.m */,
 				97BAD0DA1EEF6E0200CB6EAD /* UIImage+Extend.h */,
 				97BAD0DB1EEF6E0200CB6EAD /* UIImage+Extend.m */,
 				97BAD0DC1EEF6E0200CB6EAD /* UINavigationController+GTExtend.h */,
@@ -245,6 +233,23 @@
 				97BAD0F21EEF6E0200CB6EAD /* YXGCD.h */,
 			);
 			path = YXGCD;
+			sourceTree = "<group>";
+		};
+		97BAD10B1EEFB18300CB6EAD /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				97BAD10C1EEFB18300CB6EAD /* Extend */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		97BAD10C1EEFB18300CB6EAD /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+				97BAD10D1EEFB18300CB6EAD /* MBProgressHUD+GTExtend.h */,
+				97BAD10E1EEFB18300CB6EAD /* MBProgressHUD+GTExtend.m */,
+			);
+			path = Extend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -379,13 +384,12 @@
 				97BAD0FF1EEF6E0200CB6EAD /* GCDGroup.m in Sources */,
 				97BAD0FE1EEF6E0200CB6EAD /* YiRefreshHeader.m in Sources */,
 				97BAD1011EEF6E0200CB6EAD /* GCDSemaphore.m in Sources */,
+				97BAD10F1EEFB18300CB6EAD /* MBProgressHUD+GTExtend.m in Sources */,
 				97B461B51EEE68B200E7D324 /* AppDelegate.m in Sources */,
 				97B461BE1EEE68B200E7D324 /* ZLFoundation.xcdatamodeld in Sources */,
 				97BAD0FD1EEF6E0200CB6EAD /* YiRefreshFooter.m in Sources */,
 				97BAD0F71EEF6E0200CB6EAD /* NSString+Ext.m in Sources */,
 				97BAD0FB1EEF6E0200CB6EAD /* UITableView+TableViewExtend.m in Sources */,
-				97BAD0F61EEF6E0200CB6EAD /* MBProgressHUD+GTExtend.m in Sources */,
-				97BAD0F81EEF6E0200CB6EAD /* UIButton+GTExtend.m in Sources */,
 				97BAD1001EEF6E0200CB6EAD /* GCDQueue.m in Sources */,
 				97B461B21EEE68B200E7D324 /* main.m in Sources */,
 			);

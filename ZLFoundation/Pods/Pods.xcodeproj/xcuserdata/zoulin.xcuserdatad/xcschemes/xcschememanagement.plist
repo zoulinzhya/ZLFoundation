@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>MJRefresh.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -82,12 +87,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4CE15659779CABDE59A7F3E8B8F20403</key>
+		<key>2B1877081F43531F5AAE18A6F5CC5A87</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5A95C25875A174F3740C031CE4A7B10F</key>
+		<key>2B8688D7A865E6AD8AAC0F4402FD878A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>41FA54D12162DAD51D02FC58A2CD5034</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CE15659779CABDE59A7F3E8B8F20403</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,32 +112,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>64CA90380B65039198397949FC50CF63</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>6C4DA3CF0618D773AA59543CCECA7842</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6DDAF0F7BB26467146FA4F6A69F7C361</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7D92AD12B22DC5889A6DEFFF9C39E3CA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>94CAAB551818AA8481E3EAF1ED941705</key>
+		<key>80F0B0FEE60736F23DF5D542A38415C3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>B6D9F00B0D5DB64256098571755CDB62</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C6F5902C160D182A1223DB7EADDBC372</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -147,12 +152,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E370303D27100B9FD5AFD7FACC6F3B73</key>
+		<key>EEC2D0A4A0AF478023E84E2E8528CB9C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E5CC74A8CCA3A35E342FE6899C0C66AF</key>
+		<key>FB8F3A92A0E8E25A1AC2D8B1BF2F38E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFDACF0349D894B649DF7F06FA5BEB78</key>
 		<dict>
 			<key>primary</key>
 			<true/>

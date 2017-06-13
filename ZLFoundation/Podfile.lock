@@ -37,6 +37,7 @@ PODS:
   - FMDBx (0.7.0):
     - FMDB
   - Masonry (1.0.2)
+  - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.12)
   - pop (1.0.9)
   - Reachability (3.0.0)
@@ -62,6 +63,7 @@ DEPENDENCIES:
   - FMDB/SQLCipher
   - FMDBx (~> 0.7.0)
   - Masonry (~> 1.0.2)
+  - MBProgressHUD (~> 1.0.0)
   - MJRefresh (~> 3.1.12)
   - pop (~> 1.0.9)
   - Reachability (~> 3.0.0)
@@ -81,6 +83,7 @@ SPEC CHECKSUMS:
   FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
   FMDBx: 2ba542e70ed22ed63e79db5ce72c33706aaaf81b
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   Reachability: 31e4272bd8378e094beaf6609dc182c85c4e6574
@@ -91,6 +94,6 @@ SPEC CHECKSUMS:
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
   XMLDictionary: fa07b6ff422b3a91d47a5de9bc82e3fc04fbd167
 
-PODFILE CHECKSUM: 5648ee71d471a8533c4950613412b4ef2ff1d0c5
+PODFILE CHECKSUM: 3c541064e3b20364097320abb31143cdea1dadf2
 
 COCOAPODS: 1.2.1
