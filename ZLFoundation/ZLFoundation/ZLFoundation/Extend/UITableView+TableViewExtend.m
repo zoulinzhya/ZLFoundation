@@ -33,4 +33,21 @@
     view.backgroundColor = [UIColor clearColor];
     [self setTableHeaderView:view];
 }
+
+
+/*
+ *Desc:设置分割线缩进到满屏 需在viewdidload里面调用本函数 并且还需要在类里面实现willDisplayCell
+ */
++ (void)setTableViewSeperateLineInsets:(UITableView *)nTable
+{
+    if ([nTable respondsToSelector:@selector(setSeparatorInset:)]) {
+        
+        [nTable setSeparatorInset:UIEdgeInsetsZero];
+    }
+    if ([nTable respondsToSelector:@selector(setLayoutMargins:)]) {
+        
+        [nTable setLayoutMargins:UIEdgeInsetsZero];
+    }
+}
+
 @end
