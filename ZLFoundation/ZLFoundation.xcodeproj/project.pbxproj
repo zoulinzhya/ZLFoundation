@@ -19,7 +19,6 @@
 		97BAD1381EEFB92100CB6EAD /* AppConfiger.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD1131EEFB92100CB6EAD /* AppConfiger.m */; };
 		97BAD1391EEFB92100CB6EAD /* PlistManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD1161EEFB92100CB6EAD /* PlistManager.m */; };
 		97BAD13A1EEFB92100CB6EAD /* NSString+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD11C1EEFB92100CB6EAD /* NSString+Ext.m */; };
-		97BAD13B1EEFB92100CB6EAD /* UIButton+GTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD11E1EEFB92100CB6EAD /* UIButton+GTExtend.m */; };
 		97BAD13C1EEFB92100CB6EAD /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD1201EEFB92100CB6EAD /* UIImage+Extend.m */; };
 		97BAD13D1EEFB92100CB6EAD /* UINavigationController+GTExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD1221EEFB92100CB6EAD /* UINavigationController+GTExtend.m */; };
 		97BAD13E1EEFB92100CB6EAD /* UITableView+TableViewExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BAD1241EEFB92100CB6EAD /* UITableView+TableViewExtend.m */; };
@@ -52,13 +51,8 @@
 		97BAD1141EEFB92100CB6EAD /* Constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constraints.h; sourceTree = "<group>"; };
 		97BAD1151EEFB92100CB6EAD /* PlistManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistManager.h; sourceTree = "<group>"; };
 		97BAD1161EEFB92100CB6EAD /* PlistManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistManager.m; sourceTree = "<group>"; };
-		97BAD1181EEFB92100CB6EAD /* ActionSheetDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetDelegate.h; sourceTree = "<group>"; };
-		97BAD1191EEFB92100CB6EAD /* GTExtendHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTExtendHeader.h; sourceTree = "<group>"; };
-		97BAD11A1EEFB92100CB6EAD /* NSNumber_Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSNumber_Extend.h; sourceTree = "<group>"; };
 		97BAD11B1EEFB92100CB6EAD /* NSString+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Ext.h"; sourceTree = "<group>"; };
 		97BAD11C1EEFB92100CB6EAD /* NSString+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Ext.m"; sourceTree = "<group>"; };
-		97BAD11D1EEFB92100CB6EAD /* UIButton+GTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GTExtend.h"; sourceTree = "<group>"; };
-		97BAD11E1EEFB92100CB6EAD /* UIButton+GTExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GTExtend.m"; sourceTree = "<group>"; };
 		97BAD11F1EEFB92100CB6EAD /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
 		97BAD1201EEFB92100CB6EAD /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
 		97BAD1211EEFB92100CB6EAD /* UINavigationController+GTExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+GTExtend.h"; sourceTree = "<group>"; };
@@ -200,13 +194,8 @@
 		97BAD1171EEFB92100CB6EAD /* Extend */ = {
 			isa = PBXGroup;
 			children = (
-				97BAD1181EEFB92100CB6EAD /* ActionSheetDelegate.h */,
-				97BAD1191EEFB92100CB6EAD /* GTExtendHeader.h */,
-				97BAD11A1EEFB92100CB6EAD /* NSNumber_Extend.h */,
 				97BAD11B1EEFB92100CB6EAD /* NSString+Ext.h */,
 				97BAD11C1EEFB92100CB6EAD /* NSString+Ext.m */,
-				97BAD11D1EEFB92100CB6EAD /* UIButton+GTExtend.h */,
-				97BAD11E1EEFB92100CB6EAD /* UIButton+GTExtend.m */,
 				97BAD11F1EEFB92100CB6EAD /* UIImage+Extend.h */,
 				97BAD1201EEFB92100CB6EAD /* UIImage+Extend.m */,
 				97BAD1211EEFB92100CB6EAD /* UINavigationController+GTExtend.h */,
@@ -400,7 +389,6 @@
 				97B461BE1EEE68B200E7D324 /* ZLFoundation.xcdatamodeld in Sources */,
 				97BAD13C1EEFB92100CB6EAD /* UIImage+Extend.m in Sources */,
 				97B461B21EEE68B200E7D324 /* main.m in Sources */,
-				97BAD13B1EEFB92100CB6EAD /* UIButton+GTExtend.m in Sources */,
 				97BAD13F1EEFB92100CB6EAD /* YBPopupMenu.m in Sources */,
 				97BAD13E1EEFB92100CB6EAD /* UITableView+TableViewExtend.m in Sources */,
 				97BAD1441EEFB92100CB6EAD /* GCDSemaphore.m in Sources */,
